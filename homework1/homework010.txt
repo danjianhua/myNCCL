@@ -1,0 +1,29 @@
+int main(void)
+{
+	return 0
+}
+missing ';' before '}'
+
+
+tt main(void)
+{
+	return 0;
+}
+E:\C\project\CTest\main.c(10) : error C2061: syntax error : identifier 'main'
+E:\C\project\CTest\main.c(10) : error C2059: syntax error : ';'
+E:\C\project\CTest\main.c(10) : error C2059: syntax error : 'type'
+
+
+#include <stio.h>
+fatal error C1083: Cannot open include file: 'stio.h': No such file or directory
+Error executing cl.exe.
+
+int main(void
+syntax error : missing ')' before '{'
+
+int main(void)
+{
+	return aa;
+}
+error C2065: 'aa' : undeclared identifier
+
