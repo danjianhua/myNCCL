@@ -1,7 +1,15 @@
 #include <stdio.h>
+#include <time.h>
 
-int mian(void)
+int main(void)
 {
-	printf("happy dan");
-	reutrn 0;
+	int i;
+	srand((unsigned)time(NULL));
+
+	for (i=0; i<10; i++)
+	{
+		printf("%d\n", rand());
+	}
+
+	return 0;
 }
