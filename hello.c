@@ -1,14 +1,14 @@
 #include <stdio.h>
-#include <time.h>
+
+#define PRINTD(x) printf("<%s>line - %d" #x "= %d\n",__FUNCTION__,__LINE__, x)
 
 int main(void)
 {
 	int i;
-	srand((unsigned)time(NULL));
 
 	for (i=0; i<10; i++)
 	{
-		printf("%d\n", rand());
+		PRINTD(i);
 	}
 
 	return 0;
